@@ -2,6 +2,16 @@ const primaryHeader = document.querySelector(".primary-header");
 const navToggle = document.querySelector(".mobile-nav-toggle");
 const primaryNav = document.querySelector(".primary-navigation");
 
+if ('serviceWorker' in navigator) { 
+  navigator.serviceWorker.register('/service-worker.js') 
+  .then(registration => { 
+  console.log('Service Worker registered with scope:', registration.scope); 
+  }) 
+  .catch(error => { 
+  console.log('Service Worker registration failed:', error); 
+  }); 
+  } 
+  
 navToggle.addEventListener("click", () => {
   primaryNav.hasAttribute("data-visible")
     ? navToggle.setAttribute("aria-expanded", false)

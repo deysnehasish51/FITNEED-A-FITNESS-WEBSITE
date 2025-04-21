@@ -35,6 +35,8 @@
                             <li><a href="#programs-section">Programs</a></li>
                             <li><a href="#products-section">Products</a></li>
                             <li><a href="#pricing-section">Pricing</a></li>
+                            <li><a href="#contact-section">Contact</a></li>
+                            <li><a href="login.html">Login</a></li>
                         </ul>
                     </nav>
                     <button class="btn | display-sm-none display-md-inline-flex">Get Started</button>
@@ -73,8 +75,12 @@
                     <button class="btn">Read More</button>
                 </div>
                 <div class="introduction-img display-sm-none">
-                    <img src="images/overlay1.png" alt="" height="600px">
+                    <picture>
+                        <source srcset="images/overlay1.webp" type="image/webp">
+                        <img src="images/overlay1.png" alt="Gym image" height="600">
+                    </picture>
                 </div>
+                    
         </div>
     </section>
 
@@ -85,28 +91,48 @@
             <h2 class="fs-secondary-heading fw-bold uppercase text-center">Our <span class="special-text">Programs</span></h2>
             <div class="items-wrapper | padding-block-700">
                 <div class="program-item">
-                    <img src="images/program-img1.jpg" alt="">
+                    <picture>
+                        <source media="(min-width:1200px)" srcset="images/program-img1.webp" type="image/webp">
+                        <source media="(min-width:800px)" srcset="images/program-img1.webp" type="image/webp">
+                        <source media="(min-width:400px)" srcset="images/program-img1.webp" type="image/webp">
+                        <img src="images/program-img1.jpg" alt="Strength Training">
+                    </picture>
                     <div class="program-item-content">
-                        <h3 class="fw-semi-bold fs-700 text-shadow-dark">Strength Taininig</h3>
+                        <h3 class="fw-semi-bold fs-700 text-shadow-dark">Strength Training</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. itaque fugiat aspernatur.</p>
                     </div>
                 </div>
                 <div class="program-item">
-                    <img src="images/program-img2.jpg" alt="">
+                    <picture>
+                        <source media="(min-width:1200px)" srcset="images/program-img2.webp" type="image/webp">
+                        <source media="(min-width:800px)" srcset="images/program-img2.webp" type="image/webp">
+                        <source media="(min-width:400px)" srcset="images/program-img2.webp" type="image/webp">
+                        <img src="images/program-img2.jpg" alt="Weight Training">
+                    </picture>
                     <div class="program-item-content">
-                        <h3 class="fw-semi-bold fs-700 text-shadow-dark">Weight Taininig</h3>
+                        <h3 class="fw-semi-bold fs-700 text-shadow-dark">Weight Training</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. itaque fugiat aspernatur.</p>
                     </div>
                 </div>
                 <div class="program-item">
-                    <img src="images/program-img3.jpg" alt="">
+                    <picture>
+                        <source media="(min-width:1200px)" srcset="images/program-img3.webp" type="image/webp">
+                        <source media="(min-width:800px)" srcset="images/program-img3.webp" type="image/webp">
+                        <source media="(min-width:700px)" srcset="images/program-img3.webp" type="image/webp">
+                        <img src="images/program-img3.jpg" alt="Fat Losing">
+                    </picture>
                     <div class="program-item-content">
                         <h3 class="fw-semi-bold fs-700 text-shadow-dark">Fat Losing</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. itaque fugiat aspernatur.</p>
                     </div>
                 </div>
                 <div class="program-item">
-                    <img src="images/program-img4.jpg" alt="">
+                    <picture>
+                        <source media="(min-width:1200px)" srcset="images/program-img4.webp" type="image/webp">
+                        <source media="(min-width:800px)" srcset="images/program-img4.webp" type="image/webp">
+                        <source media="(min-width:400px)" srcset="images/program-img4.webp" type="image/webp">
+                        <img src="images/program-img4.jpg" alt="Speed Building">
+                    </picture>
                     <div class="program-item-content">
                         <h3 class="fw-semi-bold fs-700 text-shadow-dark">Speed Building</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. itaque fugiat aspernatur.</p>
@@ -116,46 +142,61 @@
             <button class="btn" data-type="btn-secondary">Explore More...</button>
         </div>
     </section>
-
-
+    
     <!-- PRODUCTS SECTION -->
     <section class="products | padding-block-900 bg-secondary" id="products-section">
         <div class="container">
             <h2 class="fs-secondary-heading fw-bold uppercase text-center"><span class="special-text">Our</span> Products</h2>
             <div class="items-wrapper padding-block-700">
+    
                 <div class="product-item bg-dark">
-                    <img src="images/product1.png" alt="">
+                    <picture>
+                        <source srcset="images/product1.webp" type="image/webp">
+                        <img src="images/product1.png" alt="Product 1">
+                    </picture>
                     <div class="product-item-content">
-                        <h3 class="fw-semi-bold fs-700 special-text">Item 1</h3>
-                        <p>$55.00</p>
+                        <h3 class="fw-semi-bold fs-700 special-text">Vega Protien</h3>
+                        <p>2500.00</p>
                     </div>
                 </div>
+    
                 <div class="product-item bg-dark">
-                    <img src="images/product2.png" alt="">
+                    <picture>
+                        <source srcset="images/product2.webp" type="image/webp">
+                        <img src="images/product2.png" alt="Product 2">
+                    </picture>
                     <div class="product-item-content">
-                        <h3 class="fw-semi-bold fs-700 special-text">Item 2</h3>
-                        <p>$55.00</p>
+                        <h3 class="fw-semi-bold fs-700 special-text">Whey Protien</h3>
+                        <p>1900.00</p>
                     </div>
                 </div>
+    
                 <div class="product-item bg-dark">
-                    <img src="images/product3.png" alt="">
+                    <picture>
+                        <source srcset="images/product3.webp" type="image/webp">
+                        <img src="images/product3.png" alt="Product 3">
+                    </picture>
                     <div class="product-item-content">
-                        <h3 class="fw-semi-bold fs-700 special-text">Item 3</h3>
-                        <p>$55.00</p>
+                        <h3 class="fw-semi-bold fs-700 special-text">Dietary Supliment</h3>
+                        <p>2800.00</p>
                     </div>
                 </div>
+    
                 <div class="product-item bg-dark">
-                    <img src="images/product4.png" alt="">
+                    <picture>
+                        <source srcset="images/product4.webp" type="image/webp">
+                        <img src="images/product4.png" alt="Product 4">
+                    </picture>
                     <div class="product-item-content">
-                        <h3 class="fw-semi-bold fs-700 special-text">Item 4</h3>
-                        <p>$55.00</p>
+                        <h3 class="fw-semi-bold fs-700 special-text">Protien Powder</h3>
+                        <p>3000.00</p>
                     </div>
                 </div>
+    
             </div>
             <button class="btn" data-type="btn-center">Load more...</button>
         </div>
     </section>
-
     <!-- PRICING SECTION -->
     <section class="pricing | padding-block-900" id="pricing-section">
         <div class="container">
@@ -201,6 +242,7 @@
             </div>
         </div>
     </section>
+    
 
 
     <!-- FOOTER -->
@@ -210,10 +252,10 @@
                 <div>
                     <h4 class="fs-700 uppercase fw-bold">Follow us</h4>
                     <ul class="social-icons " role="list">
-                        <li><a href=""><i class="fa-brands fa-facebook | text-white fs-700"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-twitter | text-white fs-700"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-instagram | text-white fs-700"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-linkedin | text-white fs-700"></i></a></li>
+                        <li><a href="https://www.facebook.com/snehasish.dey.923"><i class="fa-brands fa-facebook | text-white fs-700"></i></a></li>
+                        <li><a href="https://x.com/deysnehasish51"><i class="fa-brands fa-twitter | text-white fs-700"></i></a></li>
+                        <li><a href="https://www.instagram.com/vengeance__007/"><i class="fa-brands fa-instagram | text-white fs-700"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/snehasish-dey1/"><i class="fa-brands fa-linkedin | text-white fs-700"></i></a></li>
                     </ul>
                     <a class="logo">
                         <i class="fa-solid fa-dumbbell"></i>Fitneed</a>
@@ -230,16 +272,16 @@
                 <div>
                     <h4 class="fs-700 uppercase fw-bold">Quick Contacts</h4>
                     <ul role="list" class="contact-links">
-                        <li><a href=""><i class="fa-solid fa-phone"></i>+91-7205132521-</a></li>
+                        <li><a href=""><i class="fa-solid fa-phone"></i>+91-7205132521</a></li>
                         <li><a href=""><i class="fa-solid fa-envelope"></i></i>deysnehasish51@gmail.com</a></li>
                         <li><a href=""><i class="fa-solid fa-user"></i>@veangnce_007</a></li>
                         <li><a href=""><i class="fa-solid fa-location-dot"></i>Mayurbhanj, Odisha, India, 757018</a></li>
                     </ul>
                 </div>
             </div>
-            <hr>
-            <h5 class="fs-500 fw-semi-bold text-center"><span class="special-text"><i
-                        class="fa-solid fa-dumbbell"></i>FITNEED</span> Ⓒ 2025 - All Rights Reserved</h5>
+            
+            <!-- <h5 class="fs-500 fw-semi-bold text-center"><span class="special-text"><i
+                        class="fa-solid fa-dumbbell"></i>FITNEED</span> Ⓒ 2025 - All Rights Reserved</h5> -->
         </div>
 
 
