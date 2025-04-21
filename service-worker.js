@@ -6,7 +6,6 @@ const urlsToCache = [
 "/css/styles.css",
 "/css/login.css",
 "/js/script.js", 
-"/app.js", 
 "/images/bg.jpg",
 "/images/loging.jpg", 
 "/images/overlay1.webp",
@@ -18,6 +17,10 @@ const urlsToCache = [
 "/images/program-img2.webp",
 "/images/program-img3.webp",
 "/images/program-img4.webp",
+"/images/program-img1.jpg",
+"/images/program-img2.jpg",
+"/images/program-img3.jpg",
+"/images/program-img4.jpg",
 ]; 
 // Install event: Caches the assets 
 self.addEventListener("install", (event) => { 
