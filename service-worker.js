@@ -8,7 +8,7 @@ const urlsToCache = [
   "js/script.js",
   "images/bg.jpg",
   "images/login.jpg",
-  "images/overlay1.webp",
+  "images/overlay1.png",
   "images/product1.webp",
   "images/product2.webp",
   "images/product3.webp",
