@@ -13,6 +13,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
 </head>
 
 <body>
@@ -291,6 +292,14 @@
 
     <script src="js/script.js"></script>
 
+    <script>
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('service-worker.js')
+            .then(reg => console.log("Service Worker Registered", reg))
+            .catch(err => console.error("SW registration failed", err));
+        }
+      </script>
+      
 </body>
 
 </html>
